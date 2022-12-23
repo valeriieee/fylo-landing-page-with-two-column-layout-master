@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --lightBlue: hsl(224, 93%, 58%);
+    --mainColor: hsl(243, 87%, 12%);
+    --likeWhite: hsl(0, 0%, 75%);
+}
+
+ p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+ }
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+ }
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 90em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1em; */
+    /* border: 1px solid red; */
+    margin-top: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 85em;
+    padding: 2em;
+}
+
+.logo {
+    width: 100%;
+    /* border: 1px solid red; */
+    max-width: 7em;
+    margin-top: 0.3em;
+}
+
+.logo-image {
+    width: 100%;
+    /* max-width: 15em; */
+    
+}
+
+.navbox {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 15em;
+    align-items: center;
+    
+}
+
+.navbar {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.box-2 {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 85em;
+    gap: 5em;
+    color: hsl(243, 87%, 12%);
+    padding: 2em;
+
+}
+
+.box-2-1 {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 37em;
+    
+
+}
+
+.box-2 h1 {
+    line-height: 1.3em;
+}
+
+.inputt {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 34em;
+    /* gap: 0.4em; */
+}
+
+.john {
+    width: 100%;
+    max-width: 17em;
+    padding: 0.7em;
+    border-radius: 3px;
+    border: 1px solid hsl(170, 45%, 43%);
+    border-bottom: 1px solid black;
+}
+
+.instructions {
+    opacity: 0;
+    color: red;
+    font-size: 0.8em;
+    
+}
+
+.get-started {
+    width: 100%;
+    max-width: 11em;
+    margin-left: 0.9em;
+    padding: 0.7em;
+    background-color: var(--lightBlue);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.design {
+    /* margin-top: 2em; */
+}
+
+.design:hover {
+    display: inline-block;
+    opacity: 1;
+}
+
+input.john::placeholder {
+    opacity: 0.6;
+}
+
+.box-2-2 {
+    width: 100%;
+    max-width: 37em;
+}
+
+.box-2-2 img {
+    display: block;
+    width: 100%;
+}
+
+.box-3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 85em;
+    gap: 5em;
+    color: var(--mainColor);
+    padding: 2em;
+    background: url('./images/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.box-3-1 {
+    width: 100%;
+    max-width: 37em;
+    
+}
+
+.fyloWorks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 9.6em;
+    gap: 0.1em;
+    margin: 1em 0 2em 0 ;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.fyloWorks a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-weight: bold;
+}
+
+.remarks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 21em;
+    box-shadow: 3px 3px 5px var(--likeWhite);
+    /* border: 1px solid red; */
+    margin: 1em 0;
+    padding: 1.2em;
+    gap: 2em;
+    border-radius: 2px;
+    /* outline: ; */
+    
+}
+
+.quotes {
+    width: 100%;
+    max-width: 1em;
+}
+
+.info {
+    display: flex;
+    gap: 0.3em;
+    width: 100%;
+    max-width: 13em;
+}
+
+.info p {
+    font-size: 0.7em;
+}
+
+.image {
+    width: 100%;
+    max-width: 2.4em;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-3-2 {
+    width: 100%;
+    max-width: 37em;
+}
+
+.box-3-2 img {
+    width: 100%;
+}
+
+.bg-desktop {
+    /* position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1; */
+    width: 100%;
+}
+
+.box-4 {
+    display: flex;
+    width: 100%;
+    max-width: 85em;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 3.5em 2em 3.5em 2em;
+    justify-content: space-around;
+}
+
+.box-4-1 {
+    width: 100%;
+    max-width: 37em;
+}
+
+.box-4-2 {
+    width: 100%;
+    max-width: 37em;
+}
+
+.input2:hover {
+    opacity: 1;
+
+}
+
+.name2 {
+    width: 100%;
+    max-width: 30em;
+    padding: 0.9em 1.5em 0.9em 1.5em;
+    border-radius: 3px;
+    border: 1px solid var(--likeWhite);
+}
+
+.get-started2 {
+    width: 100%;
+    max-width: 20em;
+    padding: 0.9em 1.5em 0.9em 1.5em;
+    border-radius: 3px;
+    background-color: var(--lightBlue);
+    color: white;
+    border: none;
+}
+
+.label {
+    opacity: 0;
+    margin-bottom: 0.1em;
+}
+
+.box-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 85em;
+    background-color: var(--mainColor);
+    color: white;
+    padding: 2em;
+    line-height: 2em;
+
+}
+
+.box-5-1 {
+    width: 100%;
+    max-width: 25em;
+
+}
+
+.box-5-1 p {
+    line-height: 2.5em;
+} 
+
+.logo2 {
+    width: 100%;
+    max-width: 7em;
+    margin-bottom: 0.8em;
+}
+
+.logo2 img {
+    width: 100%;
+
+}
+
+.box-5-2 {
+    width: 100%;
+    max-width: 25em;
+    margin-top: 2em;
+
+}
+
+.box-5-3 {
+    width: 100%;
+    max-width: 25em;
+    margin-top: 2em;
+
+}
+.box-5 ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        /* width: 100%;
+        max-width: 100%; */
+        margin-top: 0;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .logo {
+        max-width: 4em;
+    }
+
+    .navbox {
+        max-width: 9em;
+    }
+
+    .nav-link {
+        font-size: 0.8em;
+    }
+
+    .box-2 {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box-2-1 {
+        text-align: center;
+    }
+
+    .inputt {
+        max-width: 37em;
+        /* max-width: 100%; */
+    } 
+
+    .john,.get-started {
+        max-width: 19em;
+        margin: 0.7em auto;
+    }
+
+    .box-3 {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box-3-1 {
+        text-align: center;
+    }
+
+    .fyloWorks {
+        margin: 1em auto;
+    }
+
+    .remarks{
+        margin: 3em auto 1em;
+    }
+
+    .box-4 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .box-5 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 100%;
+
+}
+    
+
+
+/* Note: Go back to edit background.
+Colors
+
+### Primary
+
+- Very Dark Blue: hsl(243, 87%, 12%)
+- Desaturated Blue: hsl(238, 22%, 44%)  
+
+### Accent
+
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
+
+### Neutral
+
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%) */
